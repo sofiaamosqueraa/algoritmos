@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #191970, #48D1CC, #AFEEEE);
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.li-1 {
+    background-color: rgba(199, 225, 240, 0.4); 
+    border: 1px solid #66a3d2;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.li-1:hover {
+    background-color: #a9c4db; 
+    cursor: pointer; 
+}
