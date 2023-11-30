@@ -28,3 +28,23 @@ h1{
     background-color: #a9c4db; 
     cursor: pointer; 
 }
+
+#searchInput {
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #4682B4; 
+    border-radius: 4px;
+}
+
+.references {
+    text-align: center;
+}
+
+.reference-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.reference-link:hover {
+    color: #BA55D3;
+}
