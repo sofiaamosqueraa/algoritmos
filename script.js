@@ -19,14 +19,12 @@ function searchAlgorithm() {
     }
 }
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
     var liItems = document.querySelectorAll('.li-1');
 
     liItems.forEach(function (li) {
         li.addEventListener('mouseover', function () {
-            this.style.backgroundColor = '#a9c4db'; 
+            this.style.backgroundColor = '#072742'; 
         });
 
         li.addEventListener('mouseout', function () {

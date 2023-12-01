@@ -1,8 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #191970, #48D1CC, #AFEEEE);
-    color: black;
+    background-image: url('https://web-assets.esetstatic.com/wls/2019/11/algoritmos-privacidad-datos.jpg');
+    background-size: cover; 
+    color: white;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 18px;
@@ -17,22 +18,23 @@ h1{
 }
 
 .li-1 {
-    background-color: rgba(199, 225, 240, 0.4); 
-    border: 1px solid #66a3d2;
+    background-color: rgba(29, 154, 226, 0.4); 
+    border: 1px solid #072742;
     margin: 10px 0;
     padding: 10px;
     border-radius: 8px;
 }
 
 .li-1:hover {
-    background-color: #a9c4db; 
-    cursor: pointer; 
+    background-color: #072742; 
+    cursor: pointer;
 }
+
 
 #searchInput {
     padding: 8px;
     margin-top: 10px;
-    border: 1px solid #4682B4; 
+    border: 1px solid #072742; 
     border-radius: 4px;
 }
 
@@ -47,4 +49,15 @@ h1{
 
 .reference-link:hover {
     color: #BA55D3;
+}
+
+video {
+    border: 3px solid rgb(5, 131, 248);
+  }
+
+ 
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
